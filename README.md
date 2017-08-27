@@ -72,7 +72,8 @@ This is the final  projects of Full Stack Udacity Nanodegree first part.
 
 ## Getting Started
 ### Prerequisites
-You need a web browser to check the design, like  **Chrome** or **Firefox**
+1. You need a web browser to check the design, like  **Chrome** or **Firefox**
+2. Code editor like **Atom** or **Sublime**
 
 ### Installation
 Clone this project (Using `git`command: `git clone https://github.com/vietdang7/final-porfolio.git.git` or through your GitDesktop application)
