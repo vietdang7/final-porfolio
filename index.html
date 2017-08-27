@@ -2,55 +2,81 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>Final Porfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>The Final Porfolio</title>
+    <!-- Link to Bootstrap css -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/css/main.css">
   </head>
-  
+
   <body>
-    <div class="container"> <!-- start container -->
-      <header> <!-- start header -->
-        <div class="logo">
-          <picture>
-            <source>
-            <img src="" alt="">
-          </picture>
-        </div>
-        <div class="header-text">
-          <h1>janne doette</h1>
-          <h4>front-end ninja</h4>
-        </div>
-      </header> <!-- end header -->
 
-      <hr>
-
-      <div class="main-image"> <!-- start main-image -->
-        <picture>
-          <source>
-          <img src="" alt="">
-        </picture>
-      </div> <!-- end main-image -->
-
-      <div class="feature"> <!-- start feature -->
-        <div class="feature-work">
-          <picture>
-            <source>
-            <img src="" alt="">
-          </picture>
+    <div class="container"> <!-- start .container -->
+      <header class="row"> <!-- start header row -->
+        <div class="col-xs-6 col-md-6 col-sm-6">
+          <img src="assets/image-src/udacity-logo.png" alt="Udacity logo" class="img-responsive logo">
         </div>
-        <div class="feature-work">
-          <picture>
-            <source>
-            <img src="" alt="">
-          </picture>
-        </div>
-        <div class="feature-work">
-          <picture>
-            <source>
-            <img src="" alt="">
-          </picture>
-        </div>
-      </div> <!-- end feature -->
-    </div> <!-- end container -->
 
+        <div class="col-xs-6 col-md-6 col-sm-6 text-right text-uppercase">
+          <h1>jane doette</h1>
+          <h3>front-end ninja</h3>
+        </div>
+      </header> <!-- end header row -->
+
+      <div class="row"> <!--  start hr -->
+        <div class="col-xs-12 col-md-12 col-sm-12">
+          <hr class="style-one">
+        </div>
+      </div> <!-- end hr -->
+
+      <div class="row"> <!-- start main image row -->
+        <div class="col-xs-12 col-md-12 col-sm-12">
+          <img class="img-responsive" src="assets/image-src/sawyer-bengtson.jpg" alt="Main image by Sawyer Bengtson">
+        </div>
+      </div> <!-- end main image row -->
+
+      <div class="row"> <!-- start feature text -->
+        <div class="col-xs-12 col-md-12 col-sm-12">
+          <h3 class="featured-text">Featured Work</h3>
+        </div>
+      </div> <!-- end feature text -->
+
+      <div class="row text-center"> <!-- start row of featured works -->
+        <div class="col-xs-12 col-sm-4 col-md-4  featured-work">
+          <img class="img-responsive" src="assets/image-src/orange.jpg" alt="Picture of orange">
+          <p class="big-text text-uppercase">Orange</p>
+          <p>https://github.com/udacity/orange<p>
+        </div>
+        <div class="col-xs-12 col-sm-4 col-md-4 featured-work">
+          <img class="img-responsive" src="assets/image-src/octopus.jpg" alt="Octopus food">
+          <p class="big-text text-uppercase">Octopus</p>
+          <p>https://github.com/udacity/octopus<p>
+        </div>
+        <div class="col-xs-12 col-sm-4 col-md-4 featured-work">
+          <img class="img-responsive" src="assets/image-src/chilli.jpg" alt="Chilli dish">
+          <p class="big-text text-uppercase">Chilli</p>
+          <p>https://github.com/udacity/chilli<p>
+        </div>
+      </div> <!-- end row of featured works -->
+
+      <div class="row"> <!--  start hr -->
+        <div class="col-xs-12 col-md-12 col-sm-12">
+          <hr class="style-one">
+        </div>
+      </div> <!-- end hr -->
+
+      <footer class="row">
+        <div class="col-md-12 text-center footer">
+          <p>Final project's website - story of images - 2017</p>
+        </div>
+      </footer>
+    </div> <!-- end .container -->
+
+
+    <!-- Link to jQuery -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+    <!-- Link to Bootstrap js -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
   </body>
 </html>

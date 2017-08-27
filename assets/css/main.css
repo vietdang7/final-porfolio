@@ -1,7 +1,36 @@
-.header-text {
-  float: right;
-
+/* Container settings */
+.container {
+  width: 80%;
+  color: #2d3c49;
 }
-hr {
-  clear: both;
+
+/* Logo settings */
+
+.logo {
+  margin: 20px 0 0 20px;
+}
+
+/* Featured Work section settings */
+
+.big-text {
+  font-size: 2em;
+  margin-top: 20px;
+}
+
+.featured-text {
+  font-size: 2em;
+  color: #7d97ad;
+}
+
+.featured-work {
+  margin-bottom: 20px;
+}
+
+/* hr settings */
+
+hr.style-one {
+    border: 0;
+    height: 1px;
+    background: #333;
+    background-image: linear-gradient(to right, #ccc, #333, #ccc);
 }
